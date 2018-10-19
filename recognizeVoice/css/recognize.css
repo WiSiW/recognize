@@ -1,0 +1,86 @@
+.start-taste-line{
+    width: 210px;
+    height: 100px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: 7px 0 0 -210px;
+    cursor: pointer;
+    z-index: 100;
+    display: none;
+}
+.btn-start-recognize{
+    width: 75px;
+    height: 35px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: 40px 0 0 -135px;
+    cursor: pointer;
+    background-color: #008200;
+    z-index: 1000;
+}
+.start-taste-line:hover .btn-start-recognize{
+    background-color: #0055aa;
+}
+.hr{
+    background-color: #1E90FF;
+    width: 5px;
+    height: 21px;
+    float: left;
+    animation: xiantiao 0.2s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: 0;
+    margin: 40px 0 0 16px;
+    cursor: pointer;
+}
+
+.hr1{
+    animation-delay: -1s;
+}
+.hr2{
+    animation-delay: -0.9s;
+}
+.hr3{
+    animation-delay: -0.8s;
+}
+.hr4{
+    animation-delay: -0.7s;
+}
+.hr5{
+    animation-delay: -0.6s;
+}
+.hr6{
+    animation-delay: -0.5s;
+}
+.hr7{
+    animation-delay: -0.4s;
+}
+.hr8{
+    animation-delay: -0.3s;
+}
+.hr9{
+    animation-delay: -0.2s;
+}
+.hr10{
+    animation-delay: -0.1s;
+}
+@keyframes xiantiao {
+    0% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        transform: scaleY(4);
+    }
+}
+/*.btn-start-recognize{*/
+    /*margin-top: 40px;*/
+    /*margin-left: 40px;*/
+    /*border-radius: 4px;*/
+/*}*/
+.to-recognize{
+    margin-top: 130px;
+    margin-left: 60px;
+}
