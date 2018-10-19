@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>科大讯飞语音输入插件版demo</title>
+    
+    <!--语音输入-->
+    <link href="recognizeVoice/css/recognize.css" rel="stylesheet"/>
+    <script src="recognizeVoice/js/HZRecorder.js"></script>
+    <script src="recognizeVoice/js/RecognizeVoice.js"></script>
+</head>
+<body>
+    <div><textarea id="ID1"></textarea></div>
+    <div><textarea id="ID2"></textarea></div>
+</body>
+<script>
+    RecognizeVoice.createHtml(["ID1","ID2"]);
+</script>
+</html>
